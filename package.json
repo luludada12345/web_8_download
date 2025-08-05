@@ -1,0 +1,25 @@
+{
+  "name": "web_8_download",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "dev": "tsc && node dist/main.js",
+    "android": "tsc && node dist/main.js --android-only",
+    "apple": "tsc && node dist/main.js --apple-only",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^24.2.0",
+    "axios": "^1.11.0",
+    "cheerio": "^1.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
