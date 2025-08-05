@@ -1,5 +1,3 @@
-import * as path from 'path';
-
 // 下载目录配置
 export const DOWNLOAD_CONFIG = {
   BASE_DIR: '/Users/luludada/Desktop/my_code',
