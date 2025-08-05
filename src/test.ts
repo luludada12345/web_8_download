@@ -21,7 +21,7 @@ class ProjectDownloader {
    * 主下载函数
    */
   async downloadAllProjects(): Promise<void> {
-    console.log('🚀 开始下载项目...\n');
+    console.log('🚀 开始下载项目....\n');
 
     try {
       // 并行下载Android和Apple项目
